@@ -42,3 +42,7 @@ class FormPage(BasePage):
             self.go_to_element(item)
             data.append(item.text)
         return data
+
+class Busket:
+    def __init__(self):
+        print('оп оп это корзина')
