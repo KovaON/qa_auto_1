@@ -11,7 +11,6 @@ class BasePage:
 
     @allure.step('Open a browser')
     def open(self):
-        print("ОП ОП я дошел до БАсе пейдж")
         self.driver.get(self.url)
 
     @allure.step('Find a visible element')
