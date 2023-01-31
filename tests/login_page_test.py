@@ -5,11 +5,16 @@ import time
 class TestLoginPage:
 
     def test_enter_lk(self, driver):
-        print(type(driver))
         login_page = LoginPage(driver, url.login_page)
         login_page.open()
         login_page.fill_phone_field()
         time.sleep(5)
+
+    def test_payroll_open(self, driver):
+        login_page = LoginPage(driver, url.payroll_page)
+        login_page.open()
+        time.sleep(5)
+
 
 
 
