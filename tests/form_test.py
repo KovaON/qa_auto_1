@@ -1,6 +1,6 @@
 import allure
 
-from pages.form_page import FormPage
+from pages.form_pageVL import FormPage
 
 
 @allure.suite('Forms')
