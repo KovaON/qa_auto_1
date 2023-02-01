@@ -8,7 +8,7 @@ class TestLoginPage:
         login_page = LoginPage(driver, url.login_page)
         login_page.open()
         login_page.fill_phone_field()
-        time.sleep(5)
+        time.sleep(20)
 
     def test_payroll_open(self, driver):
         login_page = LoginPage(driver, url.payroll_page)
